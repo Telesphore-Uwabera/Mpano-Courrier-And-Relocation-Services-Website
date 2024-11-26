@@ -37,6 +37,30 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+.hero4 {
+  height: 80vh; /* Full viewport height for the hero */
+  background-image: url('../images/gasabo1.jpg'); /* Adjust this path as per your folder structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero5 {
+  height: 80vh; /* Full viewport height for the hero */
+  background-image: url('../images/kicukiro1.jpg'); /* Adjust this path as per your folder structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero6 {
+  height: 80vh; /* Full viewport height for the hero */
+  background-image: url('../images/nyarugenge.jpg'); /* Adjust this path as per your folder structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 .hero::before {
   content: "";
   position: absolute;
@@ -310,4 +334,31 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked {
   background-color: #4CAF50;
+}
+.contact-info-bar {
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-info-bar i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.contact-info-bar span {
+  font-weight: 500;
+}
+
+.contact-info-bar .row > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact-info-bar .row > div {
+    flex-direction: column;
+    text-align: center;
+  }
 }
